@@ -46,7 +46,7 @@ export default [
   ...compat.extends(
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ),
   {
     files: ['**/*.{js,jsx,ts,tsx}'],
